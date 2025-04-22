@@ -1,10 +1,6 @@
-meow meow meow
-
----
+# meow
 
 1 + 1 = ?
-
----
 
 Answer: _______
 
