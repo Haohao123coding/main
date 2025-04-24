@@ -8,4 +8,4 @@ correct answer: ??????
 
 # Links
 
-[About](/about)
+[About](haohao123coding.github.io/main/about)
