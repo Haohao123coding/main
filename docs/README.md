@@ -1,3 +1,5 @@
+(you can consider “mainpage” as “homepage”）
+
 # Haohao123coding
 
 Welcome to my mainpage!
