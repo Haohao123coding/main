@@ -4,6 +4,10 @@
 
 Welcome to my mainpage!
 
+$1$
+
+$$2$$
+
 ## Links
 
 [My blog](https://haohao123coding.github.io/main/blogmain)
