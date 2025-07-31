@@ -1,1 +1,6 @@
-
+body{
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+    background-color: #d7e1f1;
+    text-align: center;
+    padding: 20px 0 0;
+}
