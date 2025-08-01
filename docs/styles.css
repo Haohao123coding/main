@@ -1,8 +1,12 @@
 body{
     font-family: 'Microsoft YaHei', Arial, sans-serif;
-    background-color: #d7e1f1;
+    background: #d7e1f1 url("https://github.com/Haohao123coding/main/blob/main/background.png") no-repeat center/cover;
     text-align: center;
     padding: 20px 0 0;
+}
+
+.announcement{
+    color: #333;
 }
 
 .main-page{
@@ -17,7 +21,7 @@ body{
 .btntp{
     background-color: #49e;
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     padding: 10px 20px;
     margin-left: 5px;
