@@ -1,6 +1,8 @@
 body{
     font-family: 'Microsoft YaHei', Arial, sans-serif;
-    background: #d7e1f1 url("https://github.com/Haohao123coding/main/blob/main/background.png") no-repeat center/cover;
+    background: #d7e1f1
+    url("https://raw.githubusercontent.com/Haohao123coding/main/main/background.png")
+    no-repeat center/cover;
     text-align: center;
     padding: 20px 0 0;
 }
