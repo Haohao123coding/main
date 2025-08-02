@@ -20,18 +20,19 @@ h2{
     margin-bottom: 30px;
 }
 
-.announcement{
-    color: #222;
-    padding: 20px 0 30px;
-    max-width: 600px;
-    margin: 0 auto; /* 水平居中 */
-    background-color: #ccc;
-    border-radius: 10px;
+h3{
+    color: #333;
+    margin: 10px auto;
 }
 
-.announcement h1{
+.announcement{
+    display: block;
     color: #222;
-    text-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+    padding: 10px 0 10px;
+    max-width: 600px;
+    margin: 20px auto; /* 水平居中 */
+    background-color: #ccc;
+    border-radius: 10px;
 }
 
 .main-page, .blog-main-page{
@@ -43,14 +44,18 @@ h2{
     border-radius: 20px;
 }
 
+.ac-board{
+    background-color: #aaa;
+    border-radius: 20px;
+}
+
 .btntp{
     background-color: #49e;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 10px 20px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 5px 5px auto;
     border: none;
     cursor: pointer;
     border: none;
@@ -66,4 +71,20 @@ h2{
 .btntp:active{
     transition-duration: 0.1s;
     background-color: #27c;
+}
+
+.btnclose{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px #111 solid;
+    border-radius: 3px;
+    transition: all 0.05s ease;
+
+}
+
+.btnclose:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btnclose:active{
+    background-color: rgba(0, 0, 0, 0.1);
 }
