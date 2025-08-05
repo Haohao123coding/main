@@ -49,6 +49,11 @@ h3{
     border-radius: 20px;
 }
 
+.outlink{
+    display: block;
+    margin: 10px auto;
+}
+
 .btntp{
     background-color: #49e;
     color: #fff;
