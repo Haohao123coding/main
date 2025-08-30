@@ -1,8 +1,6 @@
 body{
     font-family: 'Microsoft YaHei', Arial, sans-serif;
-    background: #d7e1f1
-    url("https://raw.githubusercontent.com/Haohao123coding/main/main/background.png")
-    no-repeat center/cover;
+    background: linear-gradient(135deg, #7b00ff 0%, #2575fc 100%);
     text-align: center;
     padding: 20px 0 0;
 }
@@ -17,7 +15,8 @@ h1{
 
 h2{
     color: #333;
-    margin-bottom: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 h3{
@@ -25,42 +24,79 @@ h3{
     margin: 10px auto;
 }
 
-.announcement{
-    display: block;
-    color: #222;
-    padding: 10px 0 10px;
-    max-width: 600px;
-    margin: 20px auto; /* 水平居中 */
-    background-color: #ccc;
-    border-radius: 10px;
-}
-
-.main-page, .blog-main-page{
+.main-page{
     padding: 40px 0 60px;
     max-width: 1200px;
     margin: 0 auto; /* 水平居中 */
-    background-color: #f2f2f2;
+    background-color: #fffffff0;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
 
-.ac-board{
-    background-color: #aaa;
-    border-radius: 20px;
+.accounts-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px auto;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    max-width: 700px;
 }
 
-.outlink{
-    display: block;
+.link-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
     margin: 10px auto;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    max-width: 400px;
+}
+
+.link-text{
+    font-size: 1.1rem;
+    color: #404040;
+}
+
+.link-text-btn{
+    display: inline-flex;
+    align-items: center;
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background: rgba(13, 110, 253, 0.1);
+}
+
+.link-text-btn:hover{
+    background: #0d6efd;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(13, 110, 253, 0.3);
+}
+
+.link-text-btn:active{
+    transform: translateY(0);
 }
 
 .btntp{
     background-color: #49e;
     color: #fff;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     padding: 10px 20px;
-    margin: 5px 5px auto;
+    margin: 0 auto;
     border: none;
     cursor: pointer;
     border: none;
@@ -76,20 +112,5 @@ h3{
 .btntp:active{
     transition-duration: 0.1s;
     background-color: #27c;
-}
-
-.btnclose{
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px #111 solid;
-    border-radius: 3px;
-    transition: all 0.05s ease;
-
-}
-
-.btnclose:hover{
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-.btnclose:active{
-    background-color: rgba(0, 0, 0, 0.1);
+    transform: translateY(0px);
 }
